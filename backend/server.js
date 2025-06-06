@@ -1,12 +1,14 @@
 import express from "express";
 import dotenv from "dotenv";
 import { sql } from "./config/db.js";
+import rateLimiter from "./middleware/rateLimiter.js";
 
 dotenv.config();
 
 const app = express();
 
-// Middleware to parse JSON request bodies
+// Middleware Section
+app.use(rateLimiter);
 // Without this line, the server won't be able to parse JSON request bodies
 app.use(express.json());
 
