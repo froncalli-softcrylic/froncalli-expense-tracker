@@ -1,10 +1,11 @@
 import { Stack } from "expo-router";
-import { SafeScreen } from "../components/SafeScreen";
+import React from "react";
+import SafeScreen from "@/components/SafeScreen";
 
 export default function RootLayout() {
   return (
     <SafeScreen>
-      <Stack screenOptions={{ headerShown: false }} />;
+      <Stack screenOptions={{ headerShown: false }} />
     </SafeScreen>
   );
 }
