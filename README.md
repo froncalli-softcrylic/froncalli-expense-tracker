@@ -18,7 +18,8 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 Dependencies we are utilizing are
 
-```Back-End Dependencies
+# Back-End Dependencies
+```
 "dependencies": {
     "@neondatabase/serverless": "^1.0.0",
     "@upstash/ratelimit": "^2.0.5",
@@ -29,7 +30,8 @@ Dependencies we are utilizing are
     "express": "^4.21.0"
 ```
 
-```Front-End Dependencies
+# Front-End Dependencies
+```
 "@clerk/clerk-expo": "^2.13.0",
     "@expo/vector-icons": "^14.1.0",
     "@react-navigation/bottom-tabs": "^7.3.10",
